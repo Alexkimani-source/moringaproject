@@ -140,6 +140,100 @@ Area not found: RandomPlaceThatDoesNotExist
 
 This journal documents the step-by-step learning process of building the Location-to-Coordinates CLI using Go and the [OpenStreetMap Nominatim API](https://www.openstreetmap.org/#map=6/0.17/37.90).
 It shows how AI was used as a tutor to move from basic concepts to a working real-world tool.
+**Phase 1: Conceptual Understanding & Setup**
+
+This phase focused on building foundational knowledge about Go and APIs before implementation.
+
+**Prompt 1 — Understanding Go for CLI Development**
+
+**Prompt:**
+“Explain how Go works for building command-line tools and how it handles HTTP requests and JSON compared to other languages.”
+
+**AI Helpfulness:**
+This clarified Go’s strengths such as simplicity, compiled binaries, and built-in concurrency.
+It also explained the ``` net/http ```and ```encoding/json``` packages, which became essential for the project.
+
+## Prompt 2 — Understanding Geocoding APIs 
+
+**Prompt:**
+“What is a geocoding API and how does the OpenStreetMap Nominatim API convert place names into coordinates?”
+
+**AI Helpfulness:**
+Helped establish the mental model of forward geocoding (name → coordinates) and how query parameters work in REST APIs.
+
+## Prompt 3 — Environment Setup 
+**Prompt:**
+“Guide me step-by-step to install Go, create a project folder, and run my first Go program.”
+
+**AI Helpfulness:**
+Provided installation steps, explained GOPATH, and ensured the environment was correctly configured before coding.
+
+## Phase 2: Building the CLI MVP**
+
+This phase focused on creating the first working version of the toolkit.
+
+**Prompt 4 — Making the First API Request**
+
+**Prompt:**
+“Show me how to send a GET request in Go to an API endpoint and print the response.”
+
+**AI Helpfulness:**
+Provided the base HTTP request structure and error handling pattern used throughout the project.
+
+**Prompt 5 — Parsing JSON Response**
+
+**Prompt:**
+“Help me create a Go struct to parse latitude and longitude from a JSON response.”
+
+**AI Helpfulness:**
+Explained struct tags and decoding JSON into Go types, enabling structured output.
+
+**Prompt 6 — Handling User Input**
+
+**Prompt:**
+“How do I read user input from the terminal and pass it as a query parameter in Go?”
+
+**AI Helpfulness:**
+This enabled the transition from a static request to an interactive CLI.
+
+## Phase 3: Error Handling & UX Improvements
+
+This phase improved reliability and user experience.
+
+**Prompt 7 — Handling ‘Location Not Found’**
+
+**Prompt:**
+“How can I check if the API returns no results and display a user-friendly message?”
+
+**AI Helpfulness:**
+Helped implement conditional logic to detect empty responses and print
+ “Area not found”.
+
+**Prompt 8 — Debugging API Issues**
+
+**Prompt:**
+“My Go program compiles but doesn’t return data. How can I debug API requests step-by-step?”
+
+**AI Helpfulness:**
+Introduced checking status codes, printing raw responses, and validating URLs.
+
+## Phase 4: Reflection & Learning Outcomes
+
+This phase captures insights gained from the project.
+
+**Key Skills Learned**
+
+Making HTTP requests in Go
+Parsing JSON into structs
+Working with real-world APIs
+Building interactive CLI tools
+Debugging network errors
+
+**Conceptual Takeaways**
+
+APIs are contracts between services
+Error handling is essential for reliability
+Go’s simplicity makes it ideal for small tools
 
 ## Common Issues & Fixes
 **1. API request fails**
