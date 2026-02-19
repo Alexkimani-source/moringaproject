@@ -271,8 +271,8 @@ Gemini CLI
 
 **References**
 
-Go official documentation [ GO ](go.dev/doc/)
+Go official documentation  [ GO ] (go.dev/doc/)
 
-OpenStreetMap Nominatim API[OSM](https://www.openstreetmap.org/#map=6/0.17/37.90)
+OpenStreetMap Nominatim API [OSM](https://www.openstreetmap.org/#map=6/0.17/37.90)
 
-JSON parsing tutorial[w3schools]( https://www.w3schools.com/js/js_json_parse.asp) 
+JSON parsing tutorial [w3schools]( https://www.w3schools.com/js/js_json_parse.asp) 
