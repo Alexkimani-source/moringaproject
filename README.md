@@ -1,5 +1,5 @@
 # 1. Title & Objective
-**Prompt-Powered Kickstart: Building a Location-to-Coordinates CLI with Go**
+## Prompt-Powered Kickstart: Building a Location-to-Coordinates CLI with Go
 
 **Overview**
 
