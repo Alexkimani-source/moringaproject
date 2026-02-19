@@ -1,4 +1,4 @@
-# moringaproject
+# 1. Title & Objective
 A Go CLI tool that fetches coordinates for a location using OpenStreetMap Nominatim API.
 # Prompt-Powered Kickstart: Building a Location-to-Coordinates CLI with Go
 
