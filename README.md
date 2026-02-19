@@ -152,7 +152,7 @@ Prompt: “How to handle no results returned by an API in Go”
 ## Common Issues & Fixes
 **1. API request fails**
    The program couldn’t fetch data from the API (e.g., internet down, API server unreachable).
-   **Fix:**
+**Fix:**
    i. Check that the internet connection is working.
 
    ii. Ensure the API URL is correct.
@@ -161,6 +161,7 @@ Prompt: “How to handle no results returned by an API in Go”
 
 **2. JSON fields empty**
 Struct fields are not exported.
+
 **Fix**: Capitalize struct fields.
 
 **3. go command not recognized**
