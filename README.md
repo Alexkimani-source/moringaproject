@@ -271,7 +271,7 @@ Gemini CLI
 
 **References**
 
-Go official documentation  [ GO ] (go.dev/doc/)
+Go official documentation  [ GO ](go.dev/doc/)
 
 OpenStreetMap Nominatim API [OSM](https://www.openstreetmap.org/#map=6/0.17/37.90)
 
