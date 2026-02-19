@@ -1,7 +1,8 @@
 # 1. Title & Objective
-**Prompt-Powered Kickstart: Building a Location-to-Coordinates CLI with Go
-**
+**Prompt-Powered Kickstart: Building a Location-to-Coordinates CLI with Go**
+
 **Overview**
+
 This project is a command-line application built with Go that converts a location name into geographic coordinates (latitude and longitude) using the OpenStreetMap Nominatim API.
 ## Technology chosen : GO
 **Why I chose it:**
