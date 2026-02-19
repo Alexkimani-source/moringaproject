@@ -122,3 +122,12 @@ func getCoordinates(query string) (*Place, error) {
 ```
 **Run Command**
 ``` go run main.go "Nairobi, Kenya" ```
+
+## Expected Output Example
+
+**Valid location:**
+```
+Location: Nairobi, Nairobi County, Kenya
+Latitude: -1.2920659
+Longitude: 36.8219462
+```
