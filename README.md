@@ -40,4 +40,4 @@ Internet connection (for API request)
 Download and install Go from the official website
 
 2. Verify Installation
-   ``` go version
+   ``` go version```
